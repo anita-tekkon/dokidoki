@@ -1,13 +1,14 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import { COMPANY_NAME } from "../env";
 
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: COMPANY_NAME,
+  siteName: COMPANY_NAME,
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    `Landing page ${COMPANY_NAME}`,
   // change base url of your web (without '/' at the end)
   url: 'https://next-landing-vpn.vercel.app',
   type: 'website',

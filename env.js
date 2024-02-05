@@ -1,0 +1,5 @@
+const { NEXT_PUBLIC_ORGANIZATION_NAME: COMPANY_NAME } = process.env
+export {
+  COMPANY_NAME
+
+}
