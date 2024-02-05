@@ -34,7 +34,7 @@ const Hero = ({
     >
       <ScrollAnimationWrapper>
         <motion.div
-          className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 main-banner"
+          className="grid grid-flow-row sm:grid-flow-col grid-rows-1 sm:grid-cols-2 gap-8 main-banner"
           variants={scrollAnimation}>
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
@@ -47,7 +47,7 @@ const Hero = ({
               <ButtonPrimary>Order Now</ButtonPrimary>
             </a>
           </div>
-          <div className="flex w-full banner-img">
+          <div className="flex w-full banner-img bg-no-repeat">
             {/* <motion.div className="h-full w-full" variants={scrollAnimation}>
               <Image
                 src="/assets/mainBanner2.png"

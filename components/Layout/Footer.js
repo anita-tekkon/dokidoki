@@ -21,7 +21,18 @@ const Footer = () => {
           </p>
 
         </div>
+        <div className="row-span-2 sm:col-span-2 sm:col-start-10 sm:col-end-13 flex flex-col">
+          <p className="text-white-500 mb-4 font-medium text-lg">Call Us</p>
+          <ul className="text-white-500 ">
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              9828766738{" "}
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              980-3847053{" "}
+            </li>
 
+          </ul>
+        </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-6 sm:col-end-9 flex flex-col">
           <p className="text-white-500 mb-4 font-medium text-lg">Follow Us</p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
@@ -38,18 +49,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-10 sm:col-end-13 flex flex-col">
-          <p className="text-white-500 mb-4 font-medium text-lg">Call Us</p>
-          <ul className="text-white-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              9828766738{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              980-3847053{" "}
-            </li>
 
-          </ul>
-        </div>
       </div>
       <div className="text-center">
         <p className="text-gray-400">©{new Date().getFullYear()} - {COMPANY_NAME}</p>

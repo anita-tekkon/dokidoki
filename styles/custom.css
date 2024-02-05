@@ -5,11 +5,16 @@
 .banner-img {
   background-image: url('/assets/mainBanner.png');
   background-size: contain;
-  background-position: left;
 }
 
 .feature-container {
   background: linear-gradient(to right, black 50%, #eb0311 50%);
+}
+
+.feature-img {
+  background-image: url('/assets/img1.png');
+  background-size: contain;
+  min-height: 336px;
 }
 
 .align-center {
@@ -38,4 +43,20 @@
 
 .footer {
   background: black
+}
+
+@media(max-width:768px) {
+
+  .banner-img,
+  .feature-img {
+    background-position: center;
+  }
+
+  .main-banner {
+    height: calc(100vh - 228px)
+  }
+
+  .feature-container {
+    background: linear-gradient(to bottom, black 50%, #eb0311 50%);
+  }
 }
