@@ -1,9 +1,10 @@
 import Feature from "../components/Feature";
-import Pricing from "../components/Pricing";
+import Services from "../components/Services";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import { COMPANY_NAME } from "../env";
+import Testimoni from "../components/Testimoni";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
       <Layout>
         <Hero />
         <Feature />
-        <Pricing />
+        <Services />
+        <Testimoni />
+
       </Layout>
     </>
   );
